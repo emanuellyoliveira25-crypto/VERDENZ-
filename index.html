@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agro Forte, Futuro Sustentável</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+
+  <header>
+    <div class="header-left">
+      <img src="VERDENZÁ.png" alt="Logo Verdenza" class="logo">
+      <div class="search-container">
+        <input type="text" id="ai-search" placeholder="Pergunte à IA (Fontes Confiáveis)...">
+        <button id="search-btn">➔</button>
+        <div id="ai-response" class="ai-response-box hidden"></div>
+      </div>
+    </div>
+    <div class="header-right">
+      <button id="theme-toggle" aria-label="Mudar tema">
+        <span class="icon-sun">☀️ Modo Claro</span>
+        <span class="icon-moon hidden">🌙 Modo Escuro</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Agro Forte, Futuro Sustentável</h1>
+      <p class="subtitulo">Equilíbrio entre Produção, Tecnologia e Preservação Ambiental</p>
+    </section>
+
+    <section class="intro">
+      <h2>O Agro Brasileiro Alimenta o Mundo e Preserva o Futuro</h2>
+      <p>O agronegócio brasileiro é um dos setores mais importantes da economia nacional, responsável por **impulsionar o crescimento econômico**, gerar milhões de empregos e **garantir o abastecimento alimentar** de diversos países. O grande desafio atual é produzir em larga escala mantendo o respeito aos ecossistemas.</p>
+    </section>
+
+    <section class="dados-setas">
+      <h2>Números que Comprovam a Força do Agro</h2>
+      <div class="data-grid">
+        <div class="data-card">
+          <p>➔ **Produção de Soja:** 166,1 milhões de toneladas colhidas com alta eficiência.</p>
+        </div>
+        <div class="data-card">
+          <p>➔ **Produção de Milho:** 141,7 milhões de toneladas impulsionando o mercado interno.</p>
+        </div>
+        <div class="data-card">
+          <p>➔ **Total de Grãos:** 346,1 milhões de toneladas consolidando a liderança global.</p>
+        </div>
+        <div class="data-card">
+          <p>➔ **Área Colhida:** 81,6 milhões de hectares otimizados por tecnologia.</p>
+        </div>
+      </div>
+      <p class="fonte">Fonte: IBGE – Levantamento Sistemático da Produção Agrícola (LSPA).</p>
+    </section>
+
+    <div class="content-gallery">
+      
+      <section class="card-cultura">
+        <h2>A Soja: Líder da Agricultura Brasileira</h2>
+        <p>A oleaginosa segue como o principal produto da pauta exportadora do país. Em 2025/2026, as práticas de **manejo biológico de pragas** reduziram drasticamente o uso de defensivos químicos químicos, gerando um grão mais limpo e valorizado internacionalmente.</p>
+        <ul>
+          <li>➔ Recorde histórico de produção impulsionado por biotecnologia;</li>
+          <li>➔ Forte participação nas exportações e na **geração de divisas** para o país;</li>
+          <li>➔ Fonte essencial para a cadeia de proteína animal e produção de **biodiesel**.</li>
+        </ul>
+        <div class="image-container">
+          <img src= "plantio.jpg" alt="Produção de soja">
+          <p class="credito">Imagem tirada por Adilson De Freitas, 2026.</p>
+        </div>
+      </section>
+
+      <section class="card-cultura">
+        <h2>O Milho: Energia para o Campo e para a Economia</h2>
+        <p>O milho brasileiro destaca-se pela técnica da **safrinha (segunda safra)**, que permite aproveitar a mesma área de terra no mesmo ano, evitando a abertura de novas matas e maximizando o uso do solo de forma inteligente.</p>
+        <ul>
+          <li>➔ Base estratégica para a alimentação da avicultura e suinocultura nacional;</li>
+          <li>➔ Matéria-prima crescente para a indústria de **etanol de milho**;</li>
+          <li>➔ Elevada capacidade de **geração de renda** para o pequeno e médio produtor.</li>
+        </ul>
+        <div class="image-container">
+          <img src="roça.jpg" alt="Produção de milho">
+          <p class="credito">Imagem tirada por Adilson De Freitas, 2026.</p>
+        </div>
+      </section>
+
+      <section class="card-cultura">
+        <h2>Sustentabilidade: Produzir Mais com Menor Impacto</h2>
+        <p>Entre 2012 e 2025, a produção de grãos mais que dobrou, enquanto a área plantada cresceu em ritmo muito menor. Isso prova o **ganho de produtividade verticalizado**, poupando milhões de hectares de vegetação nativa.</p>
+        <ul>
+          <li>➔ **ILPF:** Integração Lavoura-Pecuária-Floresta que sequestra carbono;</li>
+          <li>➔ **Recuperação de Pastagens:** Transformação de solos degradados em áreas férteis;</li>
+          <li>➔ **Preservação Ativa:** Monitoramento rigoroso de nascentes e matas ciliares.</li>
+        </ul>
+        <div class="image-container">
+          <img src="drone.jpg" alt="Sustentabilidade no campo">
+          <p class="credito">Imagem tirada por Adilson De Freitas, 2026.</p>
+        </div>
+      </section>
+
+      <section class="card-cultura">
+        <h2>Tecnologia: O Motor do Agro Moderno</h2>
+        <p>A agricultura de precisão transformou o campo. Hoje, sensores em colheitadeiras analisam o solo em tempo real, enquanto algoritmos de inteligência artificial calculam a quantidade exata de água e nutrientes, **eliminando o desperdício**.</p>
+        <ul>
+          <li>➔ **Drones de Alta Precisão:** Mapeamento de lavouras e aplicação localizada;</li>
+          <li>➔ **Sementes Adaptadas:** Variedades mais resistentes às mudanças climáticas;</li>
+          <li>➔ **Rastreabilidade Digital:** Consumidor sabe a origem exata do alimento na gôndola.</li>
+        </ul>
+        <div class="image-container">
+          <img src="colheitadeiras.jpg" alt="Tecnologia agrícola">
+          <p class="credito">Imagem tirada por Adilson De Freitas, 2026.</p>
+        </div>
+      </section>
+
+    </div>
+
+    <section class="conteudo-extra">
+      <h2>O Papel do Carbono Neutro e o Futuro das Próximas Décadas</h2>
+      <p>O grande marco da atualidade é o mercado de **créditos de carbono**. Fazendas brasileiras que adotam o plantio direto e mantêm florestas em pé começam a ser bonificadas financeiramente. Isso cria um ecossistema onde **preservar o meio ambiente se tornou um negócio altamente lucrativo**, unindo de vez a ecologia à economia de mercado.</p>
+    </section>
+
+    <section class="futuro">
+      <h2>O Futuro é Sustentável</h2>
+      <p class="frase-efeito">Produzir com eficiência. Preservar com responsabilidade. Crescer com inovação.</p>
+      <p class="assinatura">Agro Forte. Futuro Sustentável.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Agro Forte - Futuro Sustentável. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
